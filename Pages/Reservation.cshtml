@@ -1,0 +1,49 @@
+@page
+@model ReservationModel
+@{
+    ViewData["Title"] = "Reservation";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="border rounded border-2 p-4">
+                <h2 class="text-center mb-4">Car Reservation</h2>
+                <form method="post">
+                    <div class="form-group mb-4">
+                        <label for="selectedCar">Select a Car:</label>
+                        <select id="selectedCar" class="form-control" asp-for="user!.SelectedCarId">
+                            <option value="">-- Select Car --</option>
+                            @foreach (var car in Model.AvailableCars)
+                            {
+                                <option value="@car.Id">@car.Brand - @car.Model</option>
+                            }
+                        </select>
+
+                        <span asp-validation-for="user!.SelectedCarId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="userName">Name:</label>
+                        <input id="userName" class="form-control" type="textbox" asp-for="user!.UserName">
+                        <span asp-validation-for="user!.UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="userContact">Contact Number:</label>
+                        <input id="userContact" class="form-control" type="textbox" asp-for="user!.UserContact">
+                        <span asp-validation-for="user!.UserContact" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="reservationDateDateAndTime">Reservation Date:</label>
+                        <input id="reservationDateDateAndTime" class="form-control" type="datetime-local"
+                            asp-for="user!.ReservationDateAndTime">
+                        <span asp-validation-for="user!.ReservationDateAndTime" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-primary btn-lg ">Save</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

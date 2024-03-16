@@ -1,0 +1,89 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="text-center">
+    <h1>Welcome to @Model.StoreName Car Rentals</h1>
+    <p>@Model.StoreAddress</p>
+    <p>@Model.StorePhone</p>
+
+    <hr class="my-4">
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" asp-page="/Reservation" role="button">Reservation Form</a>
+    </p>
+</div>
+
+
+<h2>Users:</h2>
+<ul>
+    @foreach (var user in Model.Users)
+    {
+        <li>@user!.UserName - @user.UserContact</li>
+    }
+</ul>
+
+<h2>Available Cars:</h2>
+<div class="container mt-3">
+    <div class="row">
+
+
+
+        @foreach (var car in Model.AvailableCars)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?cs=srgb&dl=pexels-pixabay-210019.jpg&fm=jpg"
+                        class="card-img-top" alt="Car Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Brand: @car.Brand</h5>
+                        <p class="card-text">Model: @car.Model</p>
+
+                    </div>
+                    <div class="card-footer">
+                        @if (car.isReserved)
+                        {
+                            <p class="text-danger">Unavailable</p>
+                        }
+                        else
+                        {
+                            <p class="text-success">Available</p>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+
+
+        @* @foreach (var car in Model.AvailableCars)
+        {
+        <div class="col-sm-4">
+        <div class="card mb-4" style="width: 20rem;">
+        <img class="card-img-top"
+        src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?cs=srgb&dl=pexels-pixabay-210019.jpg&fm=jpg"
+        , "@car.CarImage" , alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">@car.Brand</h5>
+        <p class="card-text">@car.Model
+        </p>
+        @if (car.isReserved)
+        {
+        <p class="text-danger">Unavailable</p>
+        }
+        else
+        {
+        <p class="text-success">Available</p>
+        }
+
+        </div>
+        </div>
+        </div>
+        } *@
+
+
+        </dir>
+        </dir>
