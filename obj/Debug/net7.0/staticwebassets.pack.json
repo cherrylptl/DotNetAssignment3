@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Chiron.jpg",
+      "PackagePath": "staticwebassets\\image\\Chiron.jpg"
+    },
+    {
+      "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Ferrari.jpg",
+      "PackagePath": "staticwebassets\\image\\Ferrari.jpg"
+    },
+    {
+      "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Huracan.jpg",
+      "PackagePath": "staticwebassets\\image\\Huracan.jpg"
+    },
+    {
+      "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Maybach.jpg",
+      "PackagePath": "staticwebassets\\image\\Maybach.jpg"
+    },
+    {
+      "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Mustang.jpg",
+      "PackagePath": "staticwebassets\\image\\Mustang.jpg"
+    },
+    {
+      "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\phantom.jpeg",
+      "PackagePath": "staticwebassets\\image\\phantom.jpeg"
+    },
+    {
       "Id": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
