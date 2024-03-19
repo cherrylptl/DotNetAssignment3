@@ -1,5 +1,6 @@
 public class ReservationRepository
 {
+
     public static List<User> USERS = new List<User>();
 
     public static void AddUser(User user)
@@ -11,6 +12,5 @@ public class ReservationRepository
     {
         return USERS;
     }
-
 
 }
