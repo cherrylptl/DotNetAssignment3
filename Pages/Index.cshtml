@@ -18,24 +18,24 @@
     </div>
 </div>
 
-<h2>Users:</h2>
+@* <h2>Users:</h2>
 <ul>
-    @foreach (var user in Model.Users)
-    {
-        <li>@user!.UserName - @user.UserContact</li>
-    }
-</ul>
+@foreach (var user in Model.Users)
+{
+<li>@user!.UserName - @user.UserContact</li>
+}
+</ul> *@
 
 <h2>Available Cars:</h2>
 
 <div class="container text-center mt-3">
     <div class="row">
-        @foreach (var car in Model.AvailableCars)
+        @foreach (var car in Model.AllCarsList)
         {
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
 
-                    <img src=@car.CarImage style="height: 300px;" class="card-img-top" alt="Car Image">
+                    <img src=@car.CarImage class="card-img-top" alt="Car Image">
                     <div class="card-body">
                         <h4 class="card-title">@car.Brand</h4>
                         <h5 class="card-text">@car.Model</h5>

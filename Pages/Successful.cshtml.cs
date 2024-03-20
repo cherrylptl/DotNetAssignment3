@@ -6,8 +6,6 @@ public class SuccessfulModel : PageModel
     public User? user;
     public Car? car;
     private readonly ILogger<SuccessfulModel> _logger;
-
-
     public SuccessfulModel(ILogger<SuccessfulModel> logger)
     {
         _logger = logger;
@@ -18,8 +16,5 @@ public class SuccessfulModel : PageModel
         user = _user;
         car = CarRepository.CarList.FirstOrDefault(car => car.Id == user!.SelectedCarId);
     }
-
-
-
 }
 

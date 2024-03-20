@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uM2/AgKkmYK1WbFHN9IhgEMZLLYk3ITxOgvkJR/sSz0=",
+  "Hash": "2GTI1/6QQp7q6GOs36wCVDGhVO40rrAJb3I59JZOTmc=",
   "Source": "DotNetAssignment3",
   "BasePath": "_content/DotNetAssignment3",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Chiron.jpg",
+      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Chiron.png",
       "SourceId": "DotNetAssignment3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\",
       "BasePath": "_content/DotNetAssignment3",
-      "RelativePath": "image/Chiron.jpg",
+      "RelativePath": "image/Chiron.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Chiron.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\Chiron.png"
     },
     {
-      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Ferrari.jpg",
+      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Ferrari.png",
       "SourceId": "DotNetAssignment3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\",
       "BasePath": "_content/DotNetAssignment3",
-      "RelativePath": "image/Ferrari.jpg",
+      "RelativePath": "image/Ferrari.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Ferrari.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\Ferrari.png"
     },
     {
-      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Huracan.jpg",
+      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Huracan.png",
       "SourceId": "DotNetAssignment3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\",
       "BasePath": "_content/DotNetAssignment3",
-      "RelativePath": "image/Huracan.jpg",
+      "RelativePath": "image/Huracan.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Huracan.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\Huracan.png"
     },
     {
-      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Maybach.jpg",
+      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Maybach.png",
       "SourceId": "DotNetAssignment3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\",
       "BasePath": "_content/DotNetAssignment3",
-      "RelativePath": "image/Maybach.jpg",
+      "RelativePath": "image/Maybach.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Maybach.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\Maybach.png"
     },
     {
-      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Mustang.jpg",
+      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\Mustang.png",
       "SourceId": "DotNetAssignment3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\",
       "BasePath": "_content/DotNetAssignment3",
-      "RelativePath": "image/Mustang.jpg",
+      "RelativePath": "image/Mustang.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\Mustang.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\Mustang.png"
     },
     {
-      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\phantom.jpeg",
+      "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\image\\phantom.png",
       "SourceId": "DotNetAssignment3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\",
       "BasePath": "_content/DotNetAssignment3",
-      "RelativePath": "image/phantom.jpeg",
+      "RelativePath": "image/phantom.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,7 +184,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\phantom.jpeg"
+      "OriginalItemSpec": "wwwroot\\image\\phantom.png"
     },
     {
       "Identity": "C:\\Mobile Solution Development\\Sem 1\\SoftwareDevelopment\\DotNetAssignment3\\wwwroot\\js\\site.js",
