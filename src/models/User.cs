@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 
 public class User
 {
@@ -9,7 +10,7 @@ public class User
         this.UserName = userName;
         this.UserContact = userContact;
         this.ReservationDateAndTime = reservationDateAndTime;
-        this.SelectedCarId = selectedCarId;
+        this.SelectedCarId = 1;
 
     }
     public User()
@@ -27,8 +28,8 @@ public class User
     public required string UserContact { get; set; }
 
     [Required(ErrorMessage = "Reservation Date & Time is required")]
-    public required DateTime ReservationDateAndTime { get; set; }
+    public required DateTime? ReservationDateAndTime { get; set; }
 
     [Required(ErrorMessage = "Please select the car")]
-    public int SelectedCarId { get; set; }
+    public required int? SelectedCarId { get; set; }
 }

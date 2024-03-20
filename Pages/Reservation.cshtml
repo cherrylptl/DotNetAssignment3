@@ -13,8 +13,8 @@
                 <form method="post">
 
                     <div class="form-group mb-4">
-                        <label for="selectedCar">Select a Car:</label>
-                        <select id="selectedCar" class="form-control" asp-for="user!.SelectedCarId">
+                        <label for="selectedCarId">Select a Car:</label>
+                        <select id="selectedCarId" class="form-control" asp-for="user!.SelectedCarId">
                             <option value="">-- Select Car --</option>
                             @foreach (var car in Model.AvailableCars)
                             {
@@ -37,8 +37,8 @@
                     </div>
 
                     <div class="form-group mb-4">
-                        <label for="reservationDateDateAndTime">Reservation Date:</label>
-                        <input id="reservationDateDateAndTime" class="form-control" type="datetime-local"
+                        <label for="reservationDateAndTime">Reservation Date:</label>
+                        <input id="reservationDateAndTime" class="form-control" type="datetime-local"
                             asp-for="user!.ReservationDateAndTime">
                         <span asp-validation-for="user!.ReservationDateAndTime" class="text-danger"></span>
                     </div>

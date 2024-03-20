@@ -18,13 +18,13 @@
     </div>
 </div>
 
-@* <h2>Users:</h2>
+<h2>Users:</h2>
 <ul>
-@foreach (var user in Model.Users)
-{
-<li>@user!.UserName - @user.UserContact</li>
-}
-</ul> *@
+    @foreach (var user in Model.Users)
+    {
+        <li>@user!.UserName - @user.UserContact - @user.SelectedCarId</li>
+    }
+</ul>
 
 <h2>Available Cars:</h2>
 
