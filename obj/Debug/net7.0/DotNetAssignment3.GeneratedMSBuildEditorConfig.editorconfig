@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Mobile Solution Development\Sem 1\SoftwareDevelopment\DotNetAssignment3
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Mobile Solution Development/Sem 1/SoftwareDevelopment/DotNetAssignment3/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Mobile Solution Development/Sem 1/SoftwareDevelopment/DotNetAssignment3/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

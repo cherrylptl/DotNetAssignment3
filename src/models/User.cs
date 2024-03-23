@@ -23,7 +23,7 @@ public class User
 
     public required string UserName { get; set; }
 
-    [Required(ErrorMessage = "Phone number is required"), RegularExpression("([0-9]+(-[0-9]+)+)", ErrorMessage = "Please provide a valid phone number eg: XXX-XXX-XXXX")]
+    [Required(ErrorMessage = "Phone number is required"), RegularExpression(@"^\d{3}-\d{3}-\d{4}$", ErrorMessage = "Please provide a valid phone number eg: XXX-XXX-XXXX")]
 
     public required string UserContact { get; set; }
 

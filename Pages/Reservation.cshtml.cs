@@ -21,15 +21,9 @@ public class ReservationModel : PageModel
     public IActionResult OnPost(User user)
     {
 
-        if (user.ReservationDateAndTime <= DateTime.Now)
+        if (!ModelState.IsValid || user.ReservationDateAndTime <= DateTime.Now)
         {
-            ModelState.AddModelError("user.ReservationDateAndTime", "Reservation date & time should be greater than the current date & time.");
-            return Page();
-        }
-
-        if (!ModelState.IsValid)
-        {
-            return Page();
+            return RedirectToPage("Error", user);
         }
 
         user.UserId = ReservationRepository.GetUsers().Count + 1;
