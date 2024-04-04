@@ -30,7 +30,7 @@ public class ReservationModel : PageModel
         ReservationRepository.AddUser(user);
         CarRepository.BookCar(user.SelectedCarId ?? 0);
 
-        return RedirectToPage("Successful", user);
+        return RedirectToPage("Successful", new { carId = user.SelectedCarId, userId = user.UserId });
     }
 }
 
